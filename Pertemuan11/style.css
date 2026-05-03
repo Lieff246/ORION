@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+  align-content: flex-start;
+  gap: 20px 50px;
+}
+.box {
+  width: 80px;
+  height: 80px;
+  background: skyblue;
+  margin: 5px;
+  order: 4;
+}
+
+.box14 {
+  /* display: flex; */
+  width: 80px;
+  height: 80px;
+  background: skyblue;
+  margin: 5px;
+  order: 4;
+  align-self: end;
+}
+/* Mengatur arah penempatan */
+/* Mengatur pembungkusan item */
+
+@media only screen and(max-width: 1000px) {
+  .container {
+    background-color: aqua;
+  }
+}
